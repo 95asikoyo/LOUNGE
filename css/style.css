@@ -1,0 +1,208 @@
+/* Reset*/
+ * {
+    margin:.5px;
+    padding:0;
+    box-sizing: border-box;
+    }
+
+    /* Main Styling */
+    html body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        line-height: 1.7em;
+    }
+
+    a{
+        color: brown;
+        text-decoration: none;
+    }
+
+    h1,h2,h3   {
+        padding-bottom: 20px;
+    }
+    
+    p   {
+        margin:5px 0;
+    }
+
+    /* Utility Classes*/
+    .container {
+        margin: auto;
+        max-width: 1100px;
+        overflow: auto;
+        padding: 0px;
+    }
+    
+    .text-primary {
+        color:  plum;
+        
+    }
+    
+    .lead{
+        padding:15px;
+        font-size: 30px;
+        font-style: italic;
+        color: cornsilk;
+    }
+
+    .btn {
+        display: inline-block;
+        font-size: 20px;
+        color: palegoldenrod;
+        background: rgb(53, 52, 52);
+        padding: 15px 20px;
+        border: none;
+        cursor: pointer;
+
+    }
+    .btn:hover {
+        background:saddlebrown;
+        color: darkgreen;
+    }
+    .btn-light{
+        background: rgb(126, 103, 103);
+        color: blanchedalmond;
+        font-size: 25px;
+        padding: 10px 10px;
+    }
+
+    .bg-primary{
+        background: rgb(17, 17, 17);
+        color: peachpuff;
+    }
+    .l-heading{
+        font-size: 40px;
+    }
+
+        /*Navbar*/
+    #navbar {    
+        background: papayawhip;
+        color:brown;
+        overflow: auto;
+    }
+
+    #navbar a {
+        color: brown;
+    }
+
+
+    #navbar h1 {
+        float: left;
+        padding-top: 10px;
+}
+        
+    #navbar ul {
+    list-style: none;
+    float: left;
+}
+    #navbar ul li{
+        float: left;
+    }
+    #navbar ul li a {
+        display: block;
+        padding: 10px;
+    }
+ 
+    #navbar ul li a:hover,
+    #navbar ul li a.current {
+        background:none;
+        color: none;    }
+        
+ 
+/*Showcase*/
+#showcase {
+    background: url("../img/Central_Park_in_New_York_City_Travel_Wallpaper.jpg") no-repeat center center/cover;
+    height: 1000px;
+}
+
+#showcase .showcase-content {
+    color: purple;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+
+}
+/* Getting Started Info */
+#started-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+#started-info .info-right img{
+    margin: auto;
+    display: block;
+    width: 70%;
+    border-radius: 40%;
+}
+
+#started-info .info-left{
+    float: left;
+    width: 70%;
+    min-height: 100%;
+    
+}
+/* Testimonials */
+#testimonials{
+    height: auto;
+    background: url("../img/City_of_New_Jersey_Wallpaper_Nigh_View.jpg");
+    color:wheat;
+    padding: 200px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Bookings Form*/
+#bookings{
+    height: auto;
+    background: burlywood;
+    color: darkred;
+    padding: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#bookings-form .form-group{
+    margin-bottom: 20px;
+}
+#bookings-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+#bookings-form input,
+#bookings-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px rosybrown solid;
+}
+#bookings-form textarea{
+    height: 200px;
+}
+#bookings-form input:focus,
+#bookings-form textarea:focus {
+    outline: none;
+    border-color: rosybrown
+
+}
+
+/* Footer */
+#main-footer{
+    text-align: center;
+    background: peachpuff;
+    color: maroon;
+    padding: 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
